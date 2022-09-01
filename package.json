@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "watch": "npx nodejs-hot-reload entry=./index.js outDir=./build"
+  },
+  "dependencies": {
+    "circular-json": "^0.5.9",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "multer": "^1.4.4",
+    "nodejs-hot-reload": "^0.1.2",
+    "path": "^0.12.7"
+  }
+}
